@@ -1,8 +1,10 @@
 
-const rating = document.querySelectorAll('.rating')
+var rating = document.querySelectorAll('.rating')
 
+rating.forEach(rating => {
 
 rating.addEventListener("click", orange)
+})
 
 
 
