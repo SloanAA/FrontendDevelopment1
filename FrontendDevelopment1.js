@@ -1,15 +1,7 @@
+var ratings = document.querySelectorAll('.rating')
 
-var rating = document.querySelectorAll('.rating')
-
-rating.forEach(rating => {
-
-rating.addEventListener("click", orange)
+ratings.forEach(rating => {
+        rating.addEventListener("click", () => {
+                rating.classList.toggle('orange')
+        })
 })
-
-
-
-function orange() 
-{
-        rating.style.background = 'hsl(25, 97%, 53%)';
-        rating.style.color = 'hsl(0, 0%, 100%)';
-}
