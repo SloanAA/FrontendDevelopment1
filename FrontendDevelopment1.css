@@ -1,0 +1,108 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Orange: hsl(25, 97%, 53%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Overpass](https://fonts.google.com/specimen/Overpass)
+- Weights: 400, 700
+*/
+body {
+    background-color: black;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700px;
+}
+
+.mainScreen {
+    width: 356px;
+    height: 360px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 30px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+#star {
+    width: 20px;
+    height: auto;
+    padding: 20px;
+    background-color:hsl(216, 12%, 8%);
+    border-radius: 100%;
+}
+
+.buttonRow {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(217, 12%, 63%);
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+}
+button:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+    transition: ease-in-out 200ms;
+}
+
+#submit {
+    font-size: 15px;
+    width:auto;
+    height:40px;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+p {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    margin-top: 0px;
+    font-weight: 400px;
+}
